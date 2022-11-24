@@ -207,10 +207,10 @@ nav {
   left: 40px;
   font-size: 2rem;
 }
-.img img:hover + .img-text p {
+.img picture:hover + .img-text p {
   color: black;
 }
-.img img:hover {
+.img picture img:hover {
   opacity: 0.2;
 }
 
@@ -302,6 +302,10 @@ footer {
   }
   .nav-links {
     display: none;
+  }
+  .nav-links a {
+    margin-left: 0;
+    text-transform: uppercase;
   }
   .active {
     width: 100%;
@@ -433,5 +437,15 @@ footer {
   }
   .gallery-text h2 {
     font-size: 2rem;
+  }
+  .hamburger {
+    width: 50px;
+  }
+  .web-logo img {
+    width: 85%;
+  }
+  .img-text {
+    bottom: 20px;
+    left: 20px;
   }
 }
