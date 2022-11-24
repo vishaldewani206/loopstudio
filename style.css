@@ -272,6 +272,7 @@ footer {
   transition: 0.5s all ease;
   background: white;
   margin-bottom: 0.5em;
+  border-radius: 10px;
 }
 @media (max-width: 786px) {
   .hamburger {
@@ -280,10 +281,11 @@ footer {
   }
   nav {
     width: 90%;
+    margin-top: 2em;
   }
 
   header {
-    height: 1280px;
+    height: 100vh;
     overflow: visible;
   }
   .header-img {
@@ -341,12 +343,13 @@ footer {
   }
   .active .nav-links a {
     margin-bottom: 1em;
+    font-size: 2.5rem;
   }
   .active .web-logo {
-    margin-left: 2em;
+    margin-left: 1em;
   }
   .active .hamburger {
-    margin-right: 2em;
+    margin-right: 0em;
   }
   .intro {
     display: flex;
@@ -375,7 +378,6 @@ footer {
   }
   .img {
     height: 200px;
-    margin-bottom: 2em;
   }
   .img img {
     height: 100%;
@@ -426,6 +428,9 @@ footer {
 }
 
 @media screen and (max-width: 445px) {
+  header {
+    max-height: 1000px;
+  }
   .header-heading h1 {
     font-size: 2rem;
   }
@@ -439,7 +444,7 @@ footer {
     font-size: 2rem;
   }
   .hamburger {
-    width: 50px;
+    width: 40px;
   }
   .web-logo img {
     width: 85%;
@@ -447,5 +452,21 @@ footer {
   .img-text {
     bottom: 20px;
     left: 20px;
+  }
+  .active .nav-links a {
+    font-size: 1.5rem;
+  }
+  .active .hamburger {
+    margin-right: 0em;
+  }
+  .active .web-logo {
+    margin-left: 1em;
+  }
+  .intro-text {
+    padding: 1em;
+    margin-top: 1em;
+  }
+  .img {
+    height: 140px;
   }
 }
